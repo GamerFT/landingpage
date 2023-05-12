@@ -1,0 +1,35 @@
+*{
+    font-family: "Roboto";
+}
+body{
+    margin: 0;
+    min-height: 100vh;
+}
+ul{
+    list-style: none;
+}
+.container{
+    padding: 0 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    gap: 0;
+    flex: 1;
+}
+.header, .first{
+    background-color: #1F2937;
+
+}
+.header{
+    color: #F9FAF8;
+    padding: 0 8px;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: #e5e7eb;
+}
+.third{
+    background-color: #e5e7eb;
+}
