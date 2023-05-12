@@ -1,7 +1,5 @@
-*{
-    font-family: "Roboto";
-}
 body{
+    font-family: "Roboto",sans-serif;
     margin: 0;
     min-height: 100vh;
 }
@@ -17,9 +15,8 @@ ul{
     gap: 0;
     flex: 1;
 }
-.header, .first{
+.header, .first, .footer{
     background-color: #1F2937;
-
 }
 .header{
     color: #F9FAF8;
@@ -32,4 +29,18 @@ a{
 }
 .third{
     background-color: #e5e7eb;
+}
+.first{
+    color: #F9FAF8;
+}
+.footer{
+    color: #F9FAF8;
+}
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+.hero{
+    font-size: 48px;
+    font-weight: bolder;
 }
